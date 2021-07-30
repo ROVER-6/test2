@@ -31,44 +31,23 @@
     </style>
 
     <div class="tab">
-        <button class="tablinks" onclick="openEvent(event, 'Home')">Home</button>
-        <button class="tablinks" onclick="openEvent(event, 'About Me')">About Me</button>
-        <button class="tablinks" onclick="openEvent(event, 'Softwares')">Softwares</button>
+        <button class="tablinks" onclick="openCity(event, 'London')">London</button>
+       <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+        <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
       </div>
-
-    <div id="Home" class="Home">
-        <style>
-            h3 {
-                text-align: center;
-                font-size: 40px;
-                text-shadow: black;
-            }
-            p {
-                text-align: left;
-                
-            }
-        </style>
-        <body style="background: #444;">
-            <h3>ROVER6</h3>
-            <p>Lorem Ipsum</p>
-        </body>
-    </div>
-
-    <div id="Softwares" class="Softwares">
-        <style>
-            h3 {
-                text-align: center;
-                font-size: 40px;
-                text-shadow: black;
-            }
-            p {
-                text-align: left;
-                
-            }
-        </style>
-        <body style="background: #444;">
-            <h3>ROVER6</h3>
-            <p>Lorem Ipsum</p>
-        </body>
-    </div>
+      
+      <div id="London" class="tabcontent">
+        <h3>London</h3>
+        <p>London is the capital city of England.</p>
+      </div>
+  
+      <div id="Paris" class="tabcontent">
+        <h3>Paris</h3>
+        <p>Paris is the capital of France.</p>
+      </div>
+  
+      <div id="Tokyo" class="tabcontent">
+        <h3>Tokyo</h3>
+        <p>Tokyo is the capital of Japan.</p>
+      </div> 
 </html>
